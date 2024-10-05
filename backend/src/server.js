@@ -24,6 +24,7 @@ app.get('/',(req,res)=>{
   res.status(200).send('server started')
 })
 
+
 app.listen(PORT, (err) => {
   if (err) {
     console.log(err, "server is not Connected");
